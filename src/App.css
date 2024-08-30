@@ -1,0 +1,318 @@
+
+ body {
+            background-color: #89591a;
+            color: white;
+            font-family: 'Lora', serif;
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            background-color: #61480b;
+            padding: 10px 0;
+        }
+
+        .navbar .navbar-nav .nav-link {
+            color: white;
+            font-size: 1.2rem;
+            margin: 0 15px;
+        }
+
+        .navbar .navbar-nav .nav-link:hover {
+            color: #b38217;
+        }
+
+        .navbar .navbar-brand {
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        h1 {
+            font-weight: bolder;
+            font-style: italic;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .section {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 50px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #b38217;
+        }
+
+        .resume-section h2 {
+            font-size: 3rem;
+            margin-bottom: 40px;
+        }
+
+        .resume-section img {
+            max-width: 1000px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .resume-buttons {
+            margin-top: 20px;
+        }
+
+        .resume-buttons a {
+            margin: 0 10px;
+        }
+
+        .tech-stack {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .tech-stack h2 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+
+        .tech-stack .icon {
+            font-size: 90px;
+            margin: 0 8px;
+        }
+
+        .certificates {
+            background-color: #89591a;
+            padding: 50px 15px;
+        }
+
+        .certificates h2 {
+            font-size: 3rem;
+            margin-bottom: 40px;
+        }
+
+        .certificate {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .certificate img {
+            max-width: 500px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .certificate .caption {
+            flex: 1;
+            font-size: 1.2rem;
+            text-align: justify;
+            margin-right: 50px;
+            margin-left: 50px;;
+        }
+
+        .certificate .title {
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .projects {
+            padding: 70px 15px;
+        }
+
+        .projects h2 {
+            font-size: 3rem;
+            padding-top: 10px;
+            margin-bottom: 40px;
+        }
+
+        .project {
+            display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+            flex-wrap: wrap;
+        }
+
+        .project img {
+            max-width: 700px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-left: 70px;
+            margin-right: 70px;
+
+        }
+
+        .project .content {
+            flex: 1;
+        }
+
+        .project .content .title {
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            padding-left: 30px;
+        }
+
+        .project .content .caption {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            text-align: justify;
+            padding-left: 30px;
+        }
+
+        .project .content .icons {
+            font-size: 36px;
+            margin-top: 10px;
+            padding-left: 30px;
+        }
+
+        .project .content .icons i { /* margin in between icons */
+            margin-right: 10px;
+
+        }
+        .btn.btn-primary.mt-3 {
+
+            margin-left: 30px;
+        }
+
+        .contact-me {
+            padding: 50px 0;
+            background-color: #89591a;
+        }
+
+        .contact-me h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .contact-me .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+        }
+
+        .contact-me .social-icons a {
+            color: white;
+            font-size: 36px;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .footer {
+            background-color: #cb730d;
+            padding: 20px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #00bcd4;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .navbar .navbar-nav .nav-link {
+                font-size: 1rem;
+                margin: 0 5px;
+            }
+
+            .social-icons a {
+                font-size: 40px;
+            }
+
+            .resume-section h2,
+            .tech-stack h2,
+            .certificates h2,
+            .projects h2,
+            .contact-me h2 {
+                font-size: 2rem;
+            }
+
+            .project .content .icons {
+                font-size: 20px;
+            }
+
+            .tech-stack .icon {
+                font-size: 60px;
+            }
+
+            .certificate .title,
+            .project .content .title {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .tech-stack .icon {
+                font-size: 50px;
+                margin: 0 5px;
+            }
+
+            .certificate .title,
+            .project .content .title {
+                font-size: 1.2rem;
+            }
+
+            .project .content .icons {
+                font-size: 18px;
+                margin-top: 5px;
+            }
+        }
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #89591a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
